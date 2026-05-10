@@ -204,6 +204,9 @@ width: 550px;
     text-align: center;
 }
 .project-conatiner{
+  box-sizing: border-box;
+  overflow: scroll;
+  scrollbar-width:none;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -244,8 +247,9 @@ transition: all 0.4s ease-out;
 img{
   height: 300px;
   width: 300px;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 10px;
+  border-radius: 5px;
 }
 /*______________________________________________________ CONTACT ME ______________________________________________*/
 #contactme{
