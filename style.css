@@ -123,8 +123,8 @@ section{
  height: 100%;
  width: 100%;
  margin-bottom: 20px;
- object-fit: cover;
-
+ object-fit:fill ;
+margin-top: 20px;
 }
 
 /*______________________________________________ SKILL SECTION ____________________________________________*/
@@ -244,12 +244,12 @@ transition: all 0.4s ease-out;
   transition: all 0.3 ease;
    
 }
-img{
+.pro-img{
   height: 300px;
   width: 300px;
   margin-top: 10px;
   margin-bottom: 10px;
-  border-radius: 5px;
+ 
 }
 /*______________________________________________________ CONTACT ME ______________________________________________*/
 #contactme{
@@ -455,9 +455,9 @@ footer {
     height: auto;
   }
 
-  img {
+  .pro-img {
     width: 100%;
-    height: auto;
+    height: 300px;
   }
 
   /* CONTACT */
