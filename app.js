@@ -1,8 +1,6 @@
 let resetbtn= document.querySelector(".sub-btn");
 let mesgs=document.querySelectorAll(".name-pass");
-let picdiv=document.querySelector(".picture");
-let piclink=document.querySelector("#aboutlink");
-let data=document.querySelector(".data");
+
 resetbtn.addEventListener("click",() =>{
     
     alert("Messege Sent");
@@ -14,7 +12,7 @@ resetbtn.addEventListener("click",() =>{
     });
 });
 
-piclink.addEventListener("click",()=>{
-    picdiv.classList.add("animate");
-    data.classList.add("left-to-right");
-})
+// piclink.addEventListener("click",()=>{
+//     picdiv.classList.add("animate");
+//     data.classList.add("left-to-right");
+// })
