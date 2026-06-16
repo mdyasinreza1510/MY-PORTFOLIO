@@ -7,7 +7,9 @@
 }
 .navbar{
   margin-top: 10px;
-    background-color: #1e293b;
+    background-color: #ffffff2c;
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
     height: 4rem;
     width: 80%;
     display: flex;
@@ -16,6 +18,7 @@
     position: fixed;
     left: 10%;
     z-index: 1000;
+    
 }
 
 .navbar h3{
