@@ -6,9 +6,11 @@
     scroll-behavior: smooth;
 }
 .navbar{
+  margin-left:190px;
+  margin-top: 10px;
     background-color: #1e293b;
     height: 4rem;
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
