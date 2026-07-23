@@ -470,6 +470,10 @@ footer {
     width: 100%;
     height: auto;
     padding: 10px 0;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+
   }
 
   .navbar a {
@@ -522,7 +526,7 @@ footer {
     font-size: 16px;
     line-height: 28px;
     margin-left: 0;
-    text-align: center;
+    text-align: justify;
     animation: none;
   }
 
